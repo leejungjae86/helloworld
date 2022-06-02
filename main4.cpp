@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "employeestruct.h"
 using namespace std;
@@ -32,3 +33,4 @@ int main() {
 
 
 }
+*/
