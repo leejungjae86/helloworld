@@ -26,8 +26,8 @@ int main() {
 			cin >> b;
 			cout << "A + B ?";
 
-			cout << "16진수(A+B) = " << hex << uppercase << a + b << nouppercase << endl;  //uppercase = 대문자로출력
-
+			cout << "16진수(A+B) = " << hex << uppercase << a + b << nouppercase << endl;  // uppercase = 대문자로출력
+			
 		}
 		*/
 		// A is ?

@@ -1,10 +1,9 @@
 #pragma once
 
-struct  Employee
+struct Employee
 {
 	char firstInitial;
-	char LastInitial;
+	char lastInitial;
 	int employeeNumber;
 	int salary;
-
 };

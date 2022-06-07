@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 
 using namespace std;
@@ -6,7 +7,7 @@ int main()
 {
 
 	// 100 - 90 : A  , 90-80 : B , 80-70 : C ,  70-60 : D ,  60-50 : E , 점수는 : F
-	/*
+	
 	int Score = { 0 };
 	cin >> Score;
 
@@ -38,7 +39,7 @@ int main()
 	}
 
 
-	/*
+	
 	if (Score >= 90)
 	{
 		cout << "A" << endl;
@@ -96,7 +97,7 @@ int main()
 	cin >> c;
 
 	bool result = (a + b > c);
-	switch (result)
+	switch (result) 
 	{
 	case true:
 		cout << a + B << endl;
@@ -137,7 +138,7 @@ case 4 :
 	cout << "주만번호 뒤에 7자리를 입력?" << endl;
 	cin >> a;
 
-	a /= 1000000;
+	a /= 1000000;  // 위에서 주민번호 7자리이니까 
 
 	switch (a)
 	{

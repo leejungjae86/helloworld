@@ -4,11 +4,13 @@
 using namespace std;
 
 
-enum PieceType1 { 
-	PieceTypeKing = 1, 
-	PieceTypeQueen, 
-	PieceTypeRook = 10, 
-	PieceTypePawn };
+enum PieceType1 {           
+	PieceTypeKing = 1,      
+	PieceTypeQueen,         
+	PieceTypeRook = 10,     
+	PieceTypePawn          
+	}; 
+
 enum class PieceType : unsigned long { 
 	King = 1, 
 	Queen,
